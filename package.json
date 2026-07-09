@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "dev": "webpack serve --config webpack.dev.js",  
+    "dev": "webpack serve --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +21,12 @@
   },
   "homepage": "https://github.com/vasstefanou-DASC/template-repo-simple#readme",
   "devDependencies": {
+    "@eslint/css": "^1.4.0",
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.0.1",
     "css-loader": "^7.1.4",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
     "html-webpack-plugin": "^5.6.7",
     "style-loader": "^4.0.0",
     "webpack": "^5.108.4",
